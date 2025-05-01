@@ -25,72 +25,85 @@ body{
    background-color: rgb(177,169,175);
    align-content: center;
    justify-content: center; 
-   align-item: center;
+   align-items: center;
+   justify-items: center;
+   padding: 20px;
    
 } 
 
 .header {
     background-color: rgb(178, 26,140);
-    padding: 20px;
-    font-size: 25px
-    text-align: center;
+    padding: 30px;
+    font-size: 25px;
+    text-align: end;
     color: white;
-    tex-align: center;
+    text-align: center;
     justify-content: center;
     align-items: center;
     width: 80%;
+    border-radius: 20px;
 }
 
 .aside {
     background-color: rgb(39, 104,142);
-    padding: 20px;
-    font-size: 25px
+    padding: 30px;
+    font-size: 25px;
     text-align: center;
     color: white;
     text-align: center;
     justify-content: center;
     align-items: center;
-    width:: 80%;
+    width: 80%;
+    border-radius: 20px;
 }
 
 .section {
     justify-content: center;
-    align-items: center;
+    align-items: end;;
     background-color: rgb(63, 185, 158);
     padding: 40px;
-    font-size: 25px
+    font-size: 25px;
     text-align: center;
     color: white;
     text-align: center;
     width: 80%;
+    border-radius: 20px;
 }
-
-.article{
-
-    background-color: rgb(245, 85,101);
-    font-size: 15px
+article {
+   
+    background-color: rgb(245, 85, 101);
+    padding: 50px;
+    font-size: 15px;
     text-align: center;
+    margin: 20px auto;
+    width: 95%;
     color: white;
-    text-align: center;
-    width: 80%;
+    border-radius: 20px;
+    
+
 }
+
 
 .aside2 {
 
-    background-color: rgb(148, 193,219);
-    font-size: 25px
+    background-color: rgb(122, 185, 226);
+    font-size: 30px;
     text-align: center;
     color: white;
     text-align: center;
     width: 80%;
+    border-radius: 20px;
+    padding: 30px;
 }
 
 .footer {
 
     background-color: rgb(244, 137, 36);
-    font-size: 25px
+    font-size: 25px;
     text-align: center;
     color: white;
     text-align: center;
     width: 80%;
+    border-radius: 20px;
+    padding: 30px;
 }
