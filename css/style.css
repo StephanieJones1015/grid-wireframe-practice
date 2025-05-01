@@ -7,6 +7,7 @@ body{
     line-height: 1.6; 
     margin: 0; 
     padding: 50px;
+
 }
 
 .container{
@@ -28,13 +29,13 @@ body{
    align-items: center;
    justify-items: center;
    padding: 20px;
+  
    
 } 
 
 .header {
     background-color: rgb(178, 26,140);
-    padding: 30px;
-    font-size: 25px;
+    font-size: 5.0em;
     text-align: end;
     color: white;
     text-align: center;
@@ -42,12 +43,13 @@ body{
     align-items: center;
     width: 80%;
     border-radius: 20px;
+    
+    
 }
 
 .aside {
     background-color: rgb(39, 104,142);
-    padding: 30px;
-    font-size: 25px;
+    font-size: 5.0em;
     text-align: center;
     color: white;
     text-align: center;
@@ -62,7 +64,7 @@ body{
     align-items: end;;
     background-color: rgb(63, 185, 158);
     padding: 40px;
-    font-size: 25px;
+    font-size: 5.0em
     text-align: center;
     color: white;
     text-align: center;
@@ -73,7 +75,7 @@ article {
    
     background-color: rgb(245, 85, 101);
     padding: 50px;
-    font-size: 15px;
+    font-size: 4.0em;
     text-align: center;
     margin: 20px auto;
     width: 95%;
@@ -87,23 +89,23 @@ article {
 .aside2 {
 
     background-color: rgb(122, 185, 226);
-    font-size: 30px;
+    font-size: 5.0em;
     text-align: center;
     color: white;
     text-align: center;
     width: 80%;
     border-radius: 20px;
-    padding: 30px;
+    
 }
 
 .footer {
 
     background-color: rgb(244, 137, 36);
-    font-size: 25px;
+    font-size: 5.0em;
     text-align: center;
     color: white;
     text-align: center;
     width: 80%;
     border-radius: 20px;
-    padding: 30px;
+
 }
