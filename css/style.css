@@ -55,7 +55,6 @@ body{
 }
 
 .section {
-    text: none;
     justify-content: center;
     align-items: end;;
     background-color: rgb(63, 185, 158);
@@ -97,3 +96,60 @@ article {
     width: 80%;
     border-radius: 20px;
 }
+
+/* add media query for desktop */
+@media (min-width: 768px) {
+    .container {
+        
+        grid-template-areas: 
+        "header header header"
+        "aside section asdie2"
+        "aside section aside2"
+        "footer footer footer";
+        grid-template-columns: 1fr 2fr 2fr;
+        grid-template-rows: 1fr 2fr 1fr;
+        text-align: center;
+    }
+    .header {
+        grid-area: header;
+        width: 100%;
+    }
+    .aside {
+        grid-area: aside;
+        /* asdie will take full height of the container */
+        height: 100%;
+    }
+    .section {
+        text:align: center;
+        grid-area: section;
+        grid-gap: 10px;
+        grid-auto-rows: article-1 article-2 article-3;
+        display:flex;
+        justify-content: center;
+        grid-template-areas:
+        "article article article"
+        grid-template-row: 1fr 1fr 1fr;
+        height: 100%;
+        width: 100%;
+
+        
+    }
+    article-1, article-2, article-3 {
+       
+        grid-area: article;
+      
+        justify-content: center;
+        height: 40%;
+    }
+    . aside2{
+        grid-area: aside2;
+        height: 100vh;
+        width: 100%;
+    }
+    .footer {
+        grid-area: footer;
+        width: 100%;
+    }
+}
+
+
