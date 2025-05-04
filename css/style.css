@@ -100,7 +100,8 @@ article {
 
 @media (min-width: 768px) {
     .container {
-        
+        height: 90vh;
+        width: 190vh;
         grid-template-areas: 
         "header header header"
         "aside section asdie2"
@@ -135,13 +136,16 @@ article {
        
         grid-area: article;
       
-        justify-content: center;
+        justify-content: start;
         height: 20%;;
     }
     .aside-2 {
         grid-area: aside2;
-        /* asdie will take full height of the container */
+        /* aside-2 needs to be to the right of the section and take full height of the section */
         height: 100%;
+
+        width: 100%;
+    
     }
     .footer {
         grid-area: footer;
