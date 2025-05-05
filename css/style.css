@@ -30,6 +30,7 @@ body{
    padding: 20px;
 } 
 
+
 .header {
     background-color: rgb(178, 26,140);
     font-size: 3.0em;
@@ -97,7 +98,7 @@ article {
     border-radius: 20px;
 }
   
-@media (min-width: 960px) {
+@media screen and (min-width: 960px) {
 
    .container {
     display: grid;
@@ -146,6 +147,7 @@ article {
     justify-content: center;
     align-content: center
    }
+
  .section {
     grid-area: section;
     grid-row-start: 2;
@@ -157,10 +159,11 @@ article {
     justify-content: space-around;
     align-items: flex-end;
     flex-direction: row;
-    width: 550px;
+    width: 600px;
     height: 250px;
    
  }
+ 
 
  .article {
     grid-area: article;
