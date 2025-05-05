@@ -115,6 +115,8 @@ article {
     margin: 10px;
     text-align: center;
     border-radius: 10px;
+    justify-content: center;
+    align-content: center
    }
 
    .header {
@@ -140,7 +142,9 @@ article {
     border-radius: 10px;
     height: 250px;
     width: 250px;
-
+    text-align: center;
+    justify-content: center;
+    align-content: center
    }
  .section {
     grid-area: section;
@@ -155,6 +159,8 @@ article {
     flex-direction: row;
     width: 300px;
     height: 250px;
+    justify-content: center;
+    align-content: center
  }
 
  .article {
@@ -173,6 +179,8 @@ article {
     font-size: 1.5em;
     text-align: left;
     border-radius: 10px;
+    justify-content: center;
+    align-content: center
  }
 
  .aside-2 {
@@ -184,6 +192,8 @@ article {
     border-radius: 10px;
     height: 250px;
     width: 250px;
+    justify-content: center;
+    align-content: center
 
  }
 
