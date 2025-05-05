@@ -102,6 +102,7 @@ article {
    .container {
     display: grid;
     height: auto;
+    width: 1200px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: 
@@ -115,8 +116,7 @@ article {
     margin: 10px;
     text-align: center;
     border-radius: 10px;
-    justify-content: center;
-    align-content: center
+    
    }
 
    .header {
@@ -157,10 +157,9 @@ article {
     justify-content: space-around;
     align-items: flex-end;
     flex-direction: row;
-    width: 300px;
+    width: 550px;
     height: 250px;
-    justify-content: center;
-    align-content: center
+   
  }
 
  .article {
@@ -177,10 +176,11 @@ article {
     background-color: rgb(245, 85, 101);
     padding: 20px;
     font-size: 1.5em;
-    text-align: left;
+    text-align: center;
     border-radius: 10px;
     justify-content: center;
-    align-content: center
+    align-content: center;
+    
  }
 
  .aside-2 {
